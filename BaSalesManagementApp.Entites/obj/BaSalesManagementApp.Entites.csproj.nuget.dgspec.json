@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Entites/BaSalesManagementApp.Entites.csproj": {}
+  },
+  "projects": {
+    "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Core/BaSalesManagementApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Core/BaSalesManagementApp.Core.csproj",
+        "projectName": "BaSalesManagementApp.Core",
+        "projectPath": "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Core/BaSalesManagementApp.Core.csproj",
+        "packagesPath": "/Users/ilknurkarsli/.nuget/packages/",
+        "outputPath": "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilknurkarsli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Entites/BaSalesManagementApp.Entites.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Entites/BaSalesManagementApp.Entites.csproj",
+        "projectName": "BaSalesManagementApp.Entites",
+        "projectPath": "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Entites/BaSalesManagementApp.Entites.csproj",
+        "packagesPath": "/Users/ilknurkarsli/.nuget/packages/",
+        "outputPath": "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Entites/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilknurkarsli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Core/BaSalesManagementApp.Core.csproj": {
+                "projectPath": "/Users/ilknurkarsli/Desktop/BASalesManagement/SalesManagenemnt/BaSalesManagementApp.Core/BaSalesManagementApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
